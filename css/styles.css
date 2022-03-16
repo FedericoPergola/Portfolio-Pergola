@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----INDEX------*/
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+body{
+    font-family: 'Dongle', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span{
+    color: aqua;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu .active {
+    color: aqua;
+}
+
+.menu a:hover {
+    background-color: aqua;
+    transition: ease-in 0.2s;
+    color:#191c32 ;
+
+}
+
+
+.main {
+    margin: 20px 40px;
+    /*width: 80v;*/
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+
+.main img {
+    height: 300px;
+   border: 3px solid aqua;
+   margin-left: 100px;
+   /* width: 70%; */
+}
+
+.info-content h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.info-content span{
+    color: aqua;
+}
+
+.dowload-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.dowload-cv:hover {
+    color: #191c32;
+    background-color: #fff;
+    transition: ease-in 0.2s;
+}
+
+/*----------FOOTER----------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    background-color: #fff;
+}
+
+.footer-content h2 {
+    font-size: 3em;
+    color: #191c32;
+}
+
+.footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #191c32;
+}
+
+.img-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 1em;
+}
+
+.img-content i{
+    font-size: 2em;
+    text-decoration: none;
+    color: #191c32;
+}
+
+/*-------ABOUT-------*/
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.divider {
+  height: 5px;
+  width: 50px;
+  background-color: aqua;
+  margin-top: 2px;
+  margin-bottom: 3em;
+}
+
+.about p {
+    margin-bottom: 1em;
+}
+/*-------SKILLS---------*/
+
+.skills{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.skills h2{
+    font-size: 2em;
+}
+
+.skills-content{
+     display: flex;
+     justify-content: space-around;
+}
+
+.skills-content i{
+    font-size: 250px;
+}
+
+.skill-html{
+    color: rgb(248, 162, 1);
+}
+
+.skill-css{
+    color: rgb(64, 156, 199);
+}
+
+.skill-jv{
+    color: yellow;
+}
+
+/*------PORTFOLIO-------*/
+.portfolio {
+    width: 100vw;
+    background-color: #191c32;
+    
+}
+
+.portfolio-headings {
+    width: 100vw;
+    padding: 5em;
+}
+
+.portfolio-headings h2 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.portfolio .cointainer {
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: #101e4b;
+    color: #fff;
+    margin: 2em;
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/imagen.php);
+    background-size: cover;
+}
+
+.card-title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project-links i {
+    font-size: 1.5em;
+}
+
+.project-details {
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+    text-transform: uppercase;
+    
+}
+
+.project-detais-cointeiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.project-details a{
+    text-decoration: none;
+    color: #191c32;
+}
+
+/*-----CONTACT------*/
+
+.contact-section {
+    background-color: #191c32;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-headings{
+    padding: 20px 50px;
+}
+
+.contact-headings h2 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.contact-form h4 {
+    font-size: 1.7em;
+    color: #fff;
+}
+.cointainer-contact {
+    padding: 3em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cointainer-contact img {
+    width: 100px;
+    height: 100px;
+    /*bottom: 0px;*/
+    /*justify-content: center;*/
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.8em;
+    border: 1px solid #fff;
+
+}
+
+.btn-submit {
+    text-transform: uppercase;
+    margin-bottom: 10em;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1245px){
+    .main img{
+        height: 250px;
+    }
+    .info-content h1{
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width:1020px){
+    .main img{
+        height: 200px;
+    }
+    .info-content h1{
+        font-size: 2.2em;
+    }
+    .card {
+        width: 250px;
+    }
+    .card-title h2 {
+        font-size: 20px;
+    }
+    
+}
+
+/* -----Media queries--- */
+
+@media screen and (max-width:973px){
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+    }
+    .menu{
+        display: flex;
+        /* width: 50%; */
+        flex-direction: column;
+    }
+
+    .main img{
+        height: 250px;
+        margin: 10px auto;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    .about img{
+        width: 100%;
+        height: auto;
+    }
+    .skills-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+   }
+
+   .skills-content i{
+    font-size: 125px;
+   }
+   .portfolio .cointainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    }
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .cointainer-contact img {
+        display: none;
+    }
+    .wrapper{
+        height: auto;
+    }
+    .form{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .contact-form h4{
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .form input, textarea{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:669px){
+
+    .main img{
+        height: 200px;
+        margin: auto;
+    }
+    .footer-content h2{
+        font-size: 2em;
+    }
+    .footer-content h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:461px){
+
+    .main img{
+        height: 170px;
+        margin: auto;
+    }
+    .info-content h1{
+        font-size: 1.8em;
+    }
+    .info-content p{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .main img{
+        height: 150px;
+        margin: 20px auto;
+    }
+    .info-content h1{
+        font-size: 1.6em;
+    }
+    .info-content p{
+        font-size: 1em;
+    }
+    .wrapper{
+        width: 110vw;
+    }
+    .contact-section h2, .portfolio-headings h2{
+        font-size: 2em;
+    }
+}
+
