@@ -8,8 +8,12 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
-
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 <body>
     <div class="wrapper">
         <header class="header" id="header">
@@ -28,7 +32,7 @@
         </header>
         <main class="main" id="main">
             <div class="info-content">
-                <h1>I'm <span>Federico Pergola</span></h1>
+                <h1>I'm <span class="wow slideInLeft" data-wow-duration="20s" data-wow-delay="5s">Federico Pergola</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, architecto laboriosam. Neque cumque
                     iure consectetur voluptates vitae, placeat unde omnis iste a. Quidem dolores quibusdam laudantium
                     molestias nisi id ipsa?</p>
@@ -36,13 +40,14 @@
                     <button class="dowload-cv">Download CV</button>
                 </a>
             </div>
-            <img src="./img/buyer-persona.png" alt="">
+            <div class="img"></div>
+                <!-- <img src="./img/buyer-persona.png" alt=""></div> -->
         </main>
     </div>
     <footer class="footer">
         <div class="footer-content">
             <h2>Federico Pergola</h2>
-            <h5>Frontend Developer</h5>
+            <h5 class="wow animate__swing">Frontend Developer</h5>
         </div>
         <div class="img-content">
             <a href="https://www.instagram.com/fede.pergola/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -51,6 +56,10 @@
         </div>
 
     </footer>
+    <!-- <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script> -->
 </body>
 
 </html>

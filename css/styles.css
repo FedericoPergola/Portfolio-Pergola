@@ -10,7 +10,9 @@
 .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #191c32;
+    /* background-color: #191c32; */
+    background: rgb(2,0,36);
+    background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
     color: #fff;
 }
 body{
@@ -106,7 +108,9 @@ body{
     align-items: center;
     width: 100vw;
     height: 150px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: rgb(25,28,50);
+    background: linear-gradient(0deg, rgba(25,28,50,1) 0%, rgba(147,173,177,1) 0%, rgba(208,218,224,1) 56%, rgba(255,255,240,1) 94%);
 }
 
 .footer-content h2 {
@@ -198,11 +202,25 @@ body{
 .skill-jv{
     color: yellow;
 }
-
+.skill-html:hover{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.skill-css:hover{
+     transform: translateY(20px);
+     cursor: pointer;
+}
+.skill-jv:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 2s;
+}
 /*------PORTFOLIO-------*/
 .portfolio {
     width: 100vw;
-    background-color: #191c32;
+    /* background-color: #191c32; */
+    background: rgb(2,0,36);
+    background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
     
 }
 
@@ -281,9 +299,10 @@ body{
 }
 
 /*-----CONTACT------*/
-
 .contact-section {
-    background-color: #191c32;
+    /* background-color: #191c32; */
+    background: rgb(2,0,36);
+    background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -487,3 +506,20 @@ body{
     }
 }
 
+/* ----Animations---- */
+
+@keyframes animations{
+    0%{background-image: url(../img/los-procesos-del-project-management.jpg)}
+    50%{background-image: url(../img/buyer-persona.png)} 
+    100%{background-image: url(../img/images.jpg)}
+}
+.img{
+    height: 40vh; 
+    width: 40vw;
+    animation-name: animations;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     background-image: cover; 
+    
+}
