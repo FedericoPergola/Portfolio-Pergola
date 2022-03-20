@@ -30,7 +30,8 @@ body{
 }
 
 .brand {
-    margin-top: -7px;
+    margin-top: 10px;
+    font-family: 'Dongle', sans-serif;
 }
 
 .brand span{
@@ -46,15 +47,37 @@ body{
     color: #fff;
     padding: 10px 20px;
 }
+.navbar-color{
+    color: #fff;
+}
 
 .menu .active {
     color: aqua;
+}
+.nav-active{
+    color: aqua;
+
 }
 
 .menu a:hover {
     background-color: aqua;
     transition: ease-in 0.2s;
     color:#191c32 ;
+
+}
+
+.nav-li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.nav-li a:hover {
+    background-color: aqua;
+    transition: ease-in 0.2s;
+    color:#191c32 ;
+    padding: 10px 20px;
 
 }
 
@@ -185,6 +208,7 @@ body{
 .skills-content{
      display: flex;
      justify-content: space-around;
+     margin-top: 100px;
 }
 
 .skills-content i{
@@ -236,19 +260,22 @@ body{
 
 .portfolio .cointainer {
     width: 100vw;
-    height: 80vh;
+    /* height: 80vh; */
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
-
-.card {
+.card-bg{
+    background-color: #101e4b;
+}
+#card{
     width: 300px;
     height: 350px;
     background-color: #101e4b;
     color: #fff;
     margin: 2em;
-}
+} 
 
 .card-img {
     width: 100%;
@@ -257,10 +284,18 @@ body{
     background-size: cover;
 }
 
+.border-color{
+    border: 2px solid aqua !important;
+}
+
 .card-title {
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+
+.card-title h2{
+    font-size: 1.5em;
 }
 
 .project-links {
@@ -421,11 +456,12 @@ body{
     .skills-content{
         display: flex;
         flex-direction: column;
-        align-items: center;     
+        align-items: center;  
+        height: 100vh;   
    }
 
    .skills-content i{
-    font-size: 125px;
+    font-size: 200px;
    }
    .portfolio .cointainer {
     display: flex;
