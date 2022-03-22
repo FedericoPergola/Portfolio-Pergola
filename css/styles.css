@@ -76,9 +76,13 @@ body{
 .nav-li a:hover {
     background-color: aqua;
     transition: ease-in 0.2s;
-    color:#191c32 ;
+    color:black ;
     padding: 10px 20px;
 
+}
+
+.nav-color{
+    color: white !important;
 }
 
 
@@ -227,17 +231,16 @@ body{
     color: yellow;
 }
 .skill-html:hover{
-    transform: rotate(45deg);
+    transform: translateY(10px);
     cursor: pointer;
 }
 .skill-css:hover{
-     transform: translateY(20px);
+     transform: translateY(10px);
      cursor: pointer;
 }
 .skill-jv:hover{
-    transform: scale(1.2);
+    transform: translateY(10px);
     cursor: pointer;
-    transition: transform 2s;
 }
 /*------PORTFOLIO-------*/
 .portfolio {
@@ -543,12 +546,12 @@ body{
 }
 
 /* ----Animations---- */
-
+/* 
 @keyframes animations{
     0%{background-image: url(../img/los-procesos-del-project-management.jpg)}
     50%{background-image: url(../img/buyer-persona.png)} 
     100%{background-image: url(../img/images.jpg)}
-}
+} */
 .img{
     height: 40vh; 
     width: 40vw;
