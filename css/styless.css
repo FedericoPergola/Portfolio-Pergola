@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Dongle", sans-serif;
+}
+
+body .wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #020024;
+  background: linear-gradient(56deg, #020024 10%, #191c32 31%, #153b54 59%, #3f5154 86%);
+  color: #fff;
+}
+
+body .wrapper .brand {
+  margin-top: 10px;
+  font-family: "Dongle", sans-serif;
+}
+
+body .wrapper span {
+  color: aqua;
+}
+
+body .wrapper .nav-li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: "Dongle", sans-serif;
+}
+
+body .wrapper .nav-li a:hover {
+  background-color: aqua;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+  color: #191c32;
+}
+
+body .wrapper .nav-color {
+  color: white !important;
+}
+
+body .wrapper .main {
+  margin: 20px 40px;
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 973px) {
+  body .wrapper .main {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+body .wrapper .main .info-content h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1245px) {
+  body .wrapper .main .info-content h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body .wrapper .main .info-content h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  body .wrapper .main .info-content h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .wrapper .main .info-content h1 {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  body .wrapper .main .info-content p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .wrapper .main .info-content p {
+    font-size: 1em;
+  }
+}
+
+body .wrapper .main .info-content span {
+  color: aqua;
+}
+
+body .wrapper .main .info-content a .dowload-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body .wrapper .main .info-content a .dowload-cv:hover {
+  color: #191c32;
+  background-color: #fff;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+
+body .wrapper .main img {
+  height: 300px;
+  border: 3px solid aqua;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1245px) {
+  body .wrapper .main img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body .wrapper .main img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  body .wrapper .main img {
+    height: 250px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  body .wrapper .main img {
+    height: 200px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  body .wrapper .main img {
+    height: 170px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .wrapper .main img {
+    height: 150px;
+    margin: 20px auto;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 150px;
+  background: #191c32;
+  background: -webkit-gradient(linear, left bottom, left top, from(#191c32), color-stop(0%, #93adb1), color-stop(56%, #d0dae0), color-stop(94%, ivory));
+  background: linear-gradient(0deg, #191c32 0%, #93adb1 0%, #d0dae0 56%, ivory 94%);
+}
+
+footer .footer-content h2 {
+  font-size: 3em;
+  color: #191c32;
+}
+
+@media screen and (max-width: 669px) {
+  footer .footer-content h2 {
+    font-size: 2em;
+  }
+}
+
+footer .footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #191c32;
+}
+
+@media screen and (max-width: 669px) {
+  footer .footer-content h5 {
+    font-size: 1em;
+  }
+}
+
+footer .img-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 400px;
+  margin-top: 1em;
+}
+
+footer .img-content i {
+  font-size: 2em;
+  text-decoration: none;
+  color: #191c32;
+}
+/*# sourceMappingURL=styless.css.map */

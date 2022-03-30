@@ -38,7 +38,7 @@ body{
     color: aqua;
 }
 
-.menu li {
+/* .menu li {
     list-style: none;
 }
 
@@ -46,10 +46,10 @@ body{
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
-}
-.navbar-color{
+} */
+/* .navbar-color{
     color: #fff;
-}
+} */
 
 .menu .active {
     color: aqua;

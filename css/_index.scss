@@ -1,0 +1,116 @@
+body{
+    font-family: $main-font;
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+        background: rgb(2,0,36);
+        background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
+        color: #fff;
+        .brand{
+            margin-top: 10px;
+            font-family: $main-font;
+        }
+            span{
+               color: $secondary-color;
+            }
+        .nav-li a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-family: $main-font;
+            // padding: 16px;
+            &:hover{
+                background-color: $secondary-color;
+                transition: ease-in 0.2s;
+                color: $main-color;
+                // padding: 10px 20px;
+            }
+        }  
+            .nav-color{
+                color: white !important;
+            }
+    
+        .main{
+            margin: 20px 40px;
+            height: 80vh;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            @media screen and (max-width:973px){
+                    grid-template-columns: repeat(1, 1fr);
+                    align-items: center;
+                }
+            .info-content{
+                h1{
+                   font-size: 3em;
+                   margin-bottom: 30px;
+                   @media screen and (max-width:1245px){
+                    font-size: 2.2em;   
+                    }
+                    @media screen and (max-width:1020px){
+                        font-size: 2.2em;    
+                    }
+                    @media screen and (max-width:461px){
+                        font-size: 1.8em;
+                    }
+                    @media screen and (max-width:400px){
+                        font-size: 1.6em;
+                    }
+                }
+                p{
+                    @media screen and (max-width:461px){
+                        font-size: 1.1em;
+                    }
+                    @media screen and (max-width:400px){
+                        font-size: 1em;
+                    }
+                }
+                span{
+                    color: $secondary-color;
+                }
+                a{
+                    .dowload-cv{
+                        padding: 10px 20px;
+                        background-color: $secondary-color;
+                        border: none;
+                        border-radius: 20px;
+                        margin-top: 10px;
+                        cursor: pointer;
+                        &:hover{
+                            color: $main-color;
+                            background-color: #fff;
+                            transition: ease-in 0.2s;
+                        }
+                    }
+                }
+            }
+            img{
+                height: 300px;
+                border: 3px solid $secondary-color;
+                margin-left: 100px;
+                @media screen and (max-width:1245px){
+                    height: 250px;
+                }
+                @media screen and (max-width:1020px){
+                    height: 200px;  
+                }
+                @media screen and (max-width:973px){
+                    height: 250px;
+                    margin: 10px auto;
+                }
+                @media screen and (max-width:669px){
+                    height: 200px;
+                    margin: auto;
+                }
+                @media screen and (max-width:461px){
+                    height: 170px;
+                    margin: auto;
+                }
+                @media screen and (max-width:400px){
+                    height: 150px;
+                    margin: 20px auto;
+                }
+            }
+        }
+    }
+}
