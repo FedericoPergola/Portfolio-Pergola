@@ -1,7 +1,6 @@
 footer{
-    display: flex;
+    @include display-justify(flex, center);
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 150px;
@@ -25,8 +24,7 @@ footer{
         }
     }
     .img-content{
-        display: flex;
-        justify-content: space-evenly;
+        @include display-justify(flex, space-evenly);
         width: 400px;
         margin-top: 1em;
         i{

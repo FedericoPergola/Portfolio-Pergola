@@ -5,7 +5,7 @@ body{
         height: 100vh;
         background: rgb(2,0,36);
         background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
-        color: #fff;
+        color: map-get($map:$paleta, $key:'uno');
         .brand{
             margin-top: 10px;
             font-family: $main-font;
@@ -14,7 +14,7 @@ body{
                color: $secondary-color;
             }
         .nav-li a{
-            color: #fff;
+            color: map-get($map:$paleta, $key:'uno');
             text-decoration: none;
             padding: 10px 20px;
             font-family: $main-font;
@@ -78,7 +78,7 @@ body{
                         cursor: pointer;
                         &:hover{
                             color: $main-color;
-                            background-color: #fff;
+                            background-color: map-get($map:$paleta, $key:'uno');
                             transition: ease-in 0.2s;
                         }
                     }

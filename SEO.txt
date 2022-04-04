@@ -1,0 +1,9 @@
+Agregue SEO en todas las vistas pero por Ejemplo en la vista index.html utilice:
+
+.Para el title "Portfolio Federico Pergola - desarollo web - front end". Que es lo mas importante y por lo que las personas van a buscarme
+
+.Meta description "web developer willing to work and help you get what you want". Una pequeña descripcion de lo que ofrezco
+
+.Meta keywords "developer, web, project, Frontend, software, Web page, federico pergola".
+
+.Para el h1 utilice mi nombre que es lo mas importante en mi proyecto

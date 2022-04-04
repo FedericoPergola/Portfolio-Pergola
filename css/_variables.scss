@@ -4,3 +4,15 @@ $secondary-color:aqua;
 
 //fonts
 $main-font:'Dongle', sans-serif;
+
+//Mixins
+@mixin display-justify ($display, $justify-content){
+    display: $display;
+    justify-content: $justify-content;  
+}
+
+//Map
+$paleta:(
+    'uno': rgb(255, 255, 255),
+    'dos': rgb(250, 241, 241),
+    'tres': rgb(218, 214, 214),);
