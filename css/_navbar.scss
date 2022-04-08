@@ -1,0 +1,21 @@
+.brand{
+    margin-top: 10px;
+    font-family: $main-font;
+}
+    span{
+       color: $secondary-color;
+    }
+.nav-li a{
+    color: map-get($map:$paleta, $key:'uno');
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: $main-font;
+    &:hover{
+        background-color: $secondary-color;
+        transition: ease-in 0.3s;
+        color: $main-color !important;
+    }
+} 
+    .nav-color{
+        color: white !important;
+    }

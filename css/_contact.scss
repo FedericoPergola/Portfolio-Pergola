@@ -1,0 +1,101 @@
+.contact-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @media screen and (max-width:973px){
+    display: flex;
+    flex-direction: column;
+    }
+    .contact-headings{
+        padding: 20px 50px;
+        h2{
+        font-size: 2.5em;
+        color: #fff;
+        @media screen and (max-width:973px){
+        font-size: 2em;
+        }
+        }
+        .divider{
+        height: 5px;
+        width: 50px;
+        background-color: aqua;
+        margin-top: 2px;
+        margin-bottom: 3em;
+        }
+    }
+    .cointainer-contact{
+    padding: 3em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+        img{
+        width: 100px;
+        height: 100px;
+        @media screen and (max-width:973px){
+        display: none;
+        }
+        }
+    }
+    .contact-form{
+        h4{
+        font-size: 1.7em;
+        color: #fff;
+        @media screen and (max-width:973px){
+        text-align: center;
+        margin-top: 80px;
+        }
+        }
+        .form{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        margin-top: 2em;
+        @media screen and (max-width:973px){
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        }
+            input{
+            padding: 10px 20px;
+            margin-bottom: 1em;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            @media screen and (max-width:973px){
+            width: 50%;
+            }
+            }
+            textarea{
+            height: 150px;
+            background: none;
+            color: #fff;
+            padding: 1.8em;
+            border: 1px solid #fff;
+            @media screen and (max-width:973px){
+            width: 50%;
+            }
+            }
+            .dowload-cv {
+                padding: 10px 20px;
+                background-color: aqua;
+                border: none;
+                border-radius: 20px;
+                margin-top: 10px;
+                cursor: pointer;
+                &:hover{
+                color: #191c32;
+                background-color: #fff;
+                transition: ease-in 0.2s;
+                }
+            }
+        }
+        .btn-submit{
+        text-transform: uppercase;
+        margin-bottom: 10em;
+        cursor: pointer;
+        }
+    }
+}

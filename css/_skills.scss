@@ -1,0 +1,71 @@
+body{
+    font-family: $main-font;
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+        background: rgb(2,0,36);
+        background: linear-gradient(56deg, rgba(2,0,36,1) 10%, rgba(25,28,50,1) 31%, rgba(21,59,84,1) 59%, rgba(63,81,84,1) 86%);
+        color: map-get($map:$paleta, $key:'uno');
+main{
+    .skills{
+        padding-left: 20px;
+        padding-top: 20px;
+        h2{
+            font-size: 2em;
+        }
+        .divider{
+            height: 5px;
+            width: 50px;
+            background-color: aqua;
+            margin-top: 2px;
+            margin-bottom: 3em;
+        }
+        .skills-content{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            @media screen and (max-width:973px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            height: 100vh; 
+            }
+            i{
+                font-size: 250px;
+                @media screen and (max-width:973px){
+                font-size: 200px;
+                }
+            }
+            .skill-html{
+                color: rgb(248, 162, 1);
+                h3{
+                    text-align: center;
+                }
+                &:hover{
+                    transform: translateY(10px);
+                    cursor: pointer;
+                }
+            }
+            .skill-css{
+                color: rgb(64, 156, 199);
+                h3{
+                    text-align: center;
+                }
+                &:hover{
+                    transform: translateY(10px);
+                    cursor: pointer;
+                }
+            }
+            .skill-jv{
+                color: yellow;
+                h3{
+                    text-align: center;
+                }
+                &:hover{
+                    transform: translateY(10px);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}}}
