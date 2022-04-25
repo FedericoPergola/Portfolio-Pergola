@@ -659,6 +659,11 @@ body .wrapper main .skills .skills-content .skill-jv:hover {
   cursor: pointer;
 }
 
+.contact-section .contact-form .btn-submit a {
+  text-decoration: none;
+  color: #191c32;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -718,5 +723,43 @@ footer .img-content i {
   font-size: 2em;
   text-decoration: none;
   color: #191c32;
+}
+
+main .info-404 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+
+main .img-404 {
+  font-weight: 20px;
+}
+
+main .h2-404 {
+  padding: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+main .p-404 {
+  padding: 30px;
+}
+
+main .button-404 {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+main .button-404 a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=styless.css.map */

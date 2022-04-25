@@ -1,0 +1,31 @@
+main{
+    .info-404{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+    }
+    .img-404{
+        font-weight: 20px;
+    }
+    .h2-404{
+        padding: 30px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .p-404{
+        padding: 30px;
+    }
+    .button-404{
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
